@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeoTech | Soporte Informático y Telecomunicaciones en Zaragoza</title>
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Soporte informático profesional y telecomunicaciones en Delicias, Zaragoza. Mantenimiento de ordenadores, formateo y recuperación de datos por Leonardo.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background Tech Glows -->
+    <div class="glow glow-1" id="glow-1"></div>
+    <div class="glow glow-2" id="glow-2"></div>
+
+    <!-- Header / Navigation -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo" id="logo-brand">
+                <span class="logo-dot"></span>LEO<span>TECH</span>
+            </a>
+            <nav class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link active" id="link-home"><i class="fa-solid fa-house"></i> Inicio</a>
+                <a href="#services" class="nav-link" id="link-services"><i class="fa-solid fa-screwdriver-wrench"></i> Servicios</a>
+                <a href="#calculator" class="nav-link" id="link-calculator"><i class="fa-solid fa-calculator"></i> Presupuesto</a>
+                <a href="#about" class="nav-link" id="link-about"><i class="fa-solid fa-user-tie"></i> Quién Soy</a>
+                <a href="#contact" class="nav-link" id="link-contact"><i class="fa-solid fa-map-location-dot"></i> Contacto</a>
+            </nav>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-btn" aria-label="Cambiar tema">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                <a href="#calculator" class="btn-primary-sm" id="btn-nav-cta">Cotizar Online</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <div class="badge" id="hero-badge">
+                        <span class="badge-dot"></span>
+                        <span class="badge-text">Soporte Técnico Rápido en Delicias, Zaragoza</span>
+                    </div>
+                    <h1 class="hero-title" id="main-title">
+                        Soluciones informáticas con la <span class="gradient-text">máxima garantía</span>
+                    </h1>
+                    <p class="hero-subtitle" id="main-desc">
+                        ¿Problemas con tu ordenador o móvil? En LeoTech te ofrecemos reparaciones transparentes, mantenimiento profesional y montaje de redes de telecomunicaciones. Precios justos sin sorpresas.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#calculator" class="btn-primary" id="btn-hero-calc">
+                            Calcular Presupuesto <i class="fa-solid fa-calculator"></i>
+                        </a>
+                        <a href="#services" class="btn-secondary" id="btn-hero-services">
+                            Ver Servicios
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="card-glass hero-card" id="interactive-card">
+                        <div class="hero-card-img" style="background-image: url('https://images.unsplash.com/photo-1597872200319-3814424e89ae?auto=format&fit=crop&w=600&q=80');">
+                        </div>
+                        <div class="hero-card-content">
+                            <h3>Mantenimiento Activo</h3>
+                            <p>Diagnóstico de hardware, limpieza física de componentes, sustitución de pasta térmica y optimización de sistema operativo.</p>
+                            <span class="price-tag">Desde 45€</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services-section">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2 class="section-title">Nuestros Servicios de Informática</h2>
+                    <p class="section-subtitle">
+                        Trabajos garantizados y explicados de forma clara. Si no se repara, no pagas.
+                    </p>
+                </div>
+                <div class="services-grid">
+                    <!-- Service 1 -->
+                    <div class="service-card card-glass" id="service-maint">
+                        <div class="service-img" style="background-image: url('https://images.unsplash.com/photo-1588508065123-287b28e013da?auto=format&fit=crop&w=600&q=80');"></div>
+                        <div class="service-info">
+                            <span class="service-tag">Ordenadores</span>
+                            <h3>Mantenimiento de PCs</h3>
+                            <p>Limpieza de polvo interna, cambio de pasta térmica ártica, lubricación de ventiladores y optimización del arranque del sistema. Evita sobrecalentamientos.</p>
+                            <div class="service-price">Precio: <span class="price">45€</span></div>
+                        </div>
+                    </div>
+                    <!-- Service 2 -->
+                    <div class="service-card card-glass" id="service-recovery">
+                        <div class="service-img" style="background-image: url('https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=600&q=80');"></div>
+                        <div class="service-info">
+                            <span class="service-tag">Seguridad</span>
+                            <h3>Recuperación de Datos</h3>
+                            <p>Recuperación de fotos, documentos y archivos borrados accidentalmente en discos duros dañados, pendrives, tarjetas SD y teléfonos móviles (iOS/Android).</p>
+                            <div class="service-price">Precio: <span class="price">75€</span></div>
+                        </div>
+                    </div>
+                    <!-- Service 3 -->
+                    <div class="service-card card-glass" id="service-format">
+                        <div class="service-img" style="background-image: url('https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&w=600&q=80');"></div>
+                        <div class="service-info">
+                            <span class="service-tag">Sistemas</span>
+                            <h3>Formateo de Equipos</h3>
+                            <p>Instalación limpia del Sistema Operativo (Windows/Linux) con su licencia correspondiente, todos los drivers de hardware actualizados y copia de seguridad opcional.</p>
+                            <div class="service-price">Precio: <span class="price">35€</span></div>
+                        </div>
+                    </div>
+                    <!-- Service 4 -->
+                    <div class="service-card card-glass" id="service-mobile">
+                        <div class="service-img" style="background-image: url('https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=600&q=80');"></div>
+                        <div class="service-info">
+                            <span class="service-tag">Móviles y Redes</span>
+                            <h3>Reparaciones y Redes</h3>
+                            <p>Cambio de pantallas de móviles, baterías, reparación de puertos de carga. Además, diseño y configuración de redes WiFi y cableado de telecomunicaciones.</p>
+                            <div class="service-price">Precio: <span class="price">Desde 30€</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Dynamic Calculator Section -->
+        <section id="calculator" class="calculator-section">
+            <div class="section-container">
+                <div class="calculator-box card-glass">
+                    <div class="calculator-header">
+                        <h2><i class="fa-solid fa-calculator text-accent"></i> Cotizador de Presupuesto Inmediato</h2>
+                        <p>Selecciona los servicios que necesitas y calcula al instante cuánto costará tu reparación sin compromiso.</p>
+                    </div>
+                    <div class="calculator-body">
+                        <div class="calculator-options">
+                            <!-- Option 1 -->
+                            <div class="calc-option" data-price="45">
+                                <input type="checkbox" id="opt-maint">
+                                <label for="opt-maint" class="option-label">
+                                    <span class="custom-checkbox"></span>
+                                    <div class="option-details">
+                                        <span class="option-name">Mantenimiento de PC (Limpieza y Pasta Térmica)</span>
+                                        <span class="option-price">45€</span>
+                                    </div>
+                                </label>
+                            </div>
+                            <!-- Option 2 -->
+                            <div class="calc-option" data-price="75">
+                                <input type="checkbox" id="opt-recovery">
+                                <label for="opt-recovery" class="option-label">
+                                    <span class="custom-checkbox"></span>
+                                    <div class="option-details">
+                                        <span class="option-name">Recuperación de Datos (PC, Teléfono o SD)</span>
+                                        <span class="option-price">75€</span>
+                                    </div>
+                                </label>
+                            </div>
+                            <!-- Option 3 -->
+                            <div class="calc-option" data-price="35">
+                                <input type="checkbox" id="opt-format">
+                                <label for="opt-format" class="option-label">
+                                    <span class="custom-checkbox"></span>
+                                    <div class="option-details">
+                                        <span class="option-name">Formateo e Instalación de Sistema Operativo</span>
+                                        <span class="option-price">35€</span>
+                                    </div>
+                                </label>
+                            </div>
+                            <!-- Option 4 -->
+                            <div class="calc-option" data-price="40">
+                                <input type="checkbox" id="opt-screen">
+                                <label for="opt-screen" class="option-label">
+                                    <span class="custom-checkbox"></span>
+                                    <div class="option-details">
+                                        <span class="option-name">Reparación de Hardware Móvil (Pantalla/Batería)</span>
+                                        <span class="option-price">40€</span>
+                                    </div>
+                                </label>
+                            </div>
+                            <!-- Option 5 -->
+                            <div class="calc-option" data-price="30">
+                                <input type="checkbox" id="opt-network">
+                                <label for="opt-network" class="option-label">
+                                    <span class="custom-checkbox"></span>
+                                    <div class="option-details">
+                                        <span class="option-name">Configuración de Red Doméstica / WiFi</span>
+                                        <span class="option-price">30€</span>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+
+                        <!-- Result Card -->
+                        <div class="calculator-result card-glass">
+                            <h3>Tu Presupuesto Estimado</h3>
+                            <div class="selected-summary" id="selected-summary">
+                                <p class="text-muted">Ningún servicio seleccionado</p>
+                            </div>
+                            <hr class="divider">
+                            <div class="total-price-container">
+                                <span>Total Estimado:</span>
+                                <span class="total-price" id="total-price-value">0€</span>
+                            </div>
+                            <p class="price-disclaimer">* Los precios mostrados son estimaciones base y pueden variar ligeramente según la complejidad exacta de la reparación.</p>
+                            <a href="#contact" class="btn-primary btn-block" id="btn-request-quote">Reservar Servicio Ahora</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section (Información del Autónomo) -->
+        <section id="about" class="about-section">
+            <div class="section-container">
+                <div class="about-box card-glass">
+                    <div class="about-visual">
+                        <div class="profile-icon-container">
+                            <i class="fa-solid fa-server about-tech-icon"></i>
+                        </div>
+                        <div class="badge-profile">Autónomo Local</div>
+                    </div>
+                    <div class="about-info">
+                        <span class="accent-sub">Soporte Técnico de Confianza</span>
+                        <h2>Hola, soy Leonardo, el dueño de LeoTech</h2>
+                        <p class="about-intro">
+                            Actualmente soy <strong>estudiante de Grado Superior de Instalaciones de Telecomunicaciones</strong>. Apasionado por la tecnología, las infraestructuras de red y el soporte informático avanzado.
+                        </p>
+                        <p class="about-p">
+                            Este proyecto nace con la vocación de ofrecer un soporte técnico informático de máxima calidad, transparente y adaptado a las necesidades de los vecinos de Zaragoza. Al estar cursando telecomunicaciones avanzadas, tengo una visión integral que va más allá de un formateo tradicional: entiendo el hardware, la conectividad, las redes cableadas e inalámbricas y los sistemas de transmisión de datos.
+                        </p>
+                        <p class="about-p">
+                            Mi filosofía es simple: cercanía, honestidad y precios que un estudiante y un vecino de Delicias puedan permitirse. Aquí no pagarás de más, recibirás explicaciones en un lenguaje que entiendas, y tu equipo quedará como nuevo.
+                        </p>
+                        <div class="about-stats">
+                            <div class="stat-item">
+                                <span class="stat-num">100%</span>
+                                <span class="stat-lbl">Garantía de Reparación</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-num">Delicias</span>
+                                <span class="stat-lbl">Zaragoza</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-num">+34</span>
+                                <span class="stat-lbl">Soporte Directo</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="section-container">
+                <div class="contact-box card-glass">
+                    <div class="contact-text">
+                        <h2>¡Hablemos de tu equipo!</h2>
+                        <p>Escríbeme o llámame para agendar una cita o resolver tus dudas. Respondo al instante en horario comercial.</p>
+                        
+                        <div class="contact-details">
+                            <div class="contact-detail-item">
+                                <div class="c-icon"><i class="fa-solid fa-phone"></i></div>
+                                <div class="c-info">
+                                    <span class="c-title">Teléfono</span>
+                                    <a href="tel:+34612345678" class="c-link">+34 612 345 678</a>
+                                </div>
+                            </div>
+                            <div class="contact-detail-item">
+                                <div class="c-icon"><i class="fa-solid fa-map-location-dot"></i></div>
+                                <div class="c-info">
+                                    <span class="c-title">Ubicación</span>
+                                    <span>Calle de las Delicias, Zaragoza, España</span>
+                                </div>
+                            </div>
+                            <div class="contact-detail-item">
+                                <div class="c-icon"><i class="fa-solid fa-clock"></i></div>
+                                <div class="c-info">
+                                    <span class="c-title">Horario Comercial</span>
+                                    <span>Lunes a Viernes: 9:00h a 16:00h</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-form-container">
+                        <form class="contact-form" id="contact-form" onsubmit="event.preventDefault(); alert('¡Gracias por tu mensaje! Me pondré en contacto contigo a la brevedad.');">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="c-name">Tu Nombre</label>
+                                    <input type="text" id="c-name" placeholder="Ej. Juan Pérez" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="c-phone">Tu Teléfono</label>
+                                    <input type="tel" id="c-phone" placeholder="Ej. 612345678" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="c-service">Servicio de Interés</label>
+                                <select id="c-service">
+                                    <option value="mantenimiento">Mantenimiento de PC (45€)</option>
+                                    <option value="recuperacion">Recuperación de Datos (75€)</option>
+                                    <option value="formateo">Formateo de Equipos (35€)</option>
+                                    <option value="moviles">Reparaciones de Móviles (Desde 30€)</option>
+                                    <option value="redes">Configuración de Redes (30€)</option>
+                                    <option value="otro">Otro Servicio / Consulta General</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="c-message">Detalles del problema</label>
+                                <textarea id="c-message" rows="4" placeholder="Explícame qué le pasa a tu ordenador o móvil..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn-primary btn-block">Enviar Solicitud</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <span class="logo-dot"></span>LEOTECH
+                <p>Tu técnico informático de confianza en Zaragoza.</p>
+            </div>
+            <div class="footer-info">
+                <p>&copy; 2026 LeoTech. Todos los derechos reservados.</p>
+                <p>Leonardo - Estudiante de Grado Superior de Telecomunicaciones.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="app.js"></script>
+</body>
+</html>
